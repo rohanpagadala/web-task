@@ -1,0 +1,3 @@
+#Web-task
+
+I used Python and Selenium WebDriver to automate the task. The script logs in to Instagram using a dummy account. After login, it clicks on the "Home" button on the left sidebar to ensure the search bar is available. Then it clicks the search icon and types "cbitosc" to search for the account. Once the profile is found, it navigates to the CBITOSC page, clicks the follow button if not already following, and then extracts the bio, number of posts, followers, and following. This information is then saved into a text file named profile_info.txt. The script includes proper wait conditions and error handling to make it stable and reliable.
