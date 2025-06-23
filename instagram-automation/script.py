@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 USERNAME = "dummy.test.ig123"
-PASSWORD = "bot"
+PASSWORD = "bot"#Incorrect Password here
 
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
